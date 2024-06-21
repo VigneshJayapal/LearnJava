@@ -8,6 +8,26 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ArrayListExamples {
 
+    /** List(I) is the Child of Collection(I).
+     * ArrayList (C) is one of the classes provides implementation for the List(I).
+     * In list duplicate values are allowed and the insertion order is maintained.
+     * The underlying DS is resizeable Array or Growable Array. We can insert Heterogeneous objects as well.
+     * NOTE: All the collections can store Heterogeneous objects can be stored except TREE SET and TREE MAP.
+     * ArraList and vector implements RandomAccess, Serializable and Cloneable Interfaces
+     * Synchronized-> No
+     * Thread safe-> NO
+     * Default capacity-10
+     * Fill Ratio or Load factor:1 or 100%
+     * Growth Rate: current_size + current_size/2
+     */
+
+    /* ArrayList is non-synchronized.It should not be used in multi-threaded
+     * environment without explicit synchronization.Hence,
+     * adding an element to the list when traversing through it
+     * will give concurrent modification exception.
+     * This is happening because when a thread is trying to read the elements
+     * from the list another thread is trying to add or remove an element from the same.
+     */
     public void arrayListExamples(){
 //      Parent class with reference of child class - Dynamic polymorphism
         List<String> arrayListEx = new ArrayList<String>();
@@ -93,6 +113,10 @@ public class ArrayListExamples {
 
 //      Iterator loop have only Forward traversing
 //      ListIterator is a Interface, so without creating object we need to use it
+        /*Iteration with Iterator (NOTE: Not ListIterator)
+		Iterator can only traverse forward but not on reverse.
+		Hence we are using ListIterator for better usages.*/
+
         Iterator<String> iterator = arrayListEx.iterator();
         while(iterator.hasNext()){
             System.out.println("Iterator:"+ iterator.next());

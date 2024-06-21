@@ -4,6 +4,12 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
+/**
+ * LinkedList is implemented using Doubly linked list. This is best suited for insertion and deletion operations.
+ * Unlike ArrayList, this is not the best for retrieving the data.
+ * All the collections implements Serializable and cloneable Interfaces.
+ *  LinkedList also implements those Interfaces but not RandomAccess Interface.
+ */
 public class LinkedListExample {
 
     public void linkedListEx(){
