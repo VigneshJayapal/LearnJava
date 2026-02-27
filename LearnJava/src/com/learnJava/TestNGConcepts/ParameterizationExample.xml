@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Examples"> 
+    <test name="Parameter TestCases">
+        <parameter name="Status" value="PASSED!"/>
+        <parameter name="Condition" value="TRUE!"/>
+        <classes>
+            <class name="com.learnJava.TestNGConcepts.ParameterizationExamples"/>
+        </classes>
+    </test>
+</suite>

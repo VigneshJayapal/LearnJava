@@ -1,4 +1,4 @@
-package com.learnJava.Seleniumbasics;
+package com.learnJava.SeleniumBasicsAndAdvanceConcepts;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "TestNG TestCases" verbose = "10">
+    <test name="Test Case 1">
+        <classes>
+            <class name = "com.learnJava.TestNGConcepts.SampleTestNGTestCases"/>
+            <class name = "com.learnJava.TestNGConcepts.BeforeAndAfterSuiteInTestNG"/>
+            <class name = "com.learnJava.TestNGConcepts.DependenciesOnMethodsTestCase"/>
+            <class name = "com.learnJava.TestNGConcepts.EnableOrDiasableTheTestCase"/>
+            <class name = "com.learnJava.TestNGConcepts.PriorityBasedExecution"/>
+        </classes>
+    </test>
+</suite>

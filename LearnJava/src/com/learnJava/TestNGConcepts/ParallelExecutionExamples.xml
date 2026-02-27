@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--1) Parallel by Methods-->
+<suite name="Parallel Execution" parallel="methods" thread-count="3">
+    <test name="Parallel TestCase">
+        <classes>
+            <class name="com.learnJava.TestNGConcepts.ParallelExecutionExamples"/>
+        </classes>
+    </test>
+</suite>
+
+<!--2) Parallel by Classes-->
+<!--<suite name="Parallel Execution" parallel="classes" thread-count="3">-->
+<!--    <test name="Parallel TestCase">-->
+<!--        <classes>-->
+<!--            <class name="com.learnJava.TestNGConcepts.DependenciesOnMethodsTestCase"/>-->
+<!--            <class name="com.learnJava.TestNGConcepts.PriorityBasedExecution"/>-->
+<!--            <class name="com.learnJava.TestNGConcepts.SampleTestNGTestCases"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!--3) Parallel by Tests-->
+<!--<suite name="Parallel Execution" parallel="tests" thread-count="3">-->
+<!--    <test name="Test Case 1">-->
+<!--        <classes>-->
+<!--            <class name="com.learnJava.TestNGConcepts.DependenciesOnMethodsTestCase"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Test Case 2">-->
+<!--        <classes>-->
+<!--            <class name="com.learnJava.TestNGConcepts.PriorityBasedExecution"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Test Case 3">-->
+<!--        <classes>-->
+<!--            <class name="com.learnJava.TestNGConcepts.SampleTestNGTestCases"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!--4) Parallel by Instances-->
+<!--<suite name="Parallel Execution" parallel="instances" thread-count="3">-->
+<!--    <test name="Parallel TestCase">-->
+<!--        <classes>-->
+<!--            <class name="com.learnJava.TestNGConcepts.ParallelExecutionExamples"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->

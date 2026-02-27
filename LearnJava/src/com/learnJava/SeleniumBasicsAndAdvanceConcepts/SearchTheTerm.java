@@ -1,4 +1,4 @@
-package com.learnJava.Seleniumbasics;
+package com.learnJava.SeleniumBasicsAndAdvanceConcepts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

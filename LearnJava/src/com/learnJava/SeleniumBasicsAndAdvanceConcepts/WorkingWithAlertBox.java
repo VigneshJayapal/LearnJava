@@ -1,4 +1,4 @@
-package com.learnJava.Seleniumbasics;
+package com.learnJava.SeleniumBasicsAndAdvanceConcepts;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

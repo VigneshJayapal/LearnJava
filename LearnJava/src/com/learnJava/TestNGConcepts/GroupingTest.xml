@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Grouping Examples">
+    <test name="Test Case Group">
+        <groups>
+            <run>
+                <!--            <include name="P1TestCases"/>-->
+                <exclude name="P1TestCases"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.learnJava.TestNGConcepts.GroupingExamples"/>
+        </classes>
+    </test>
+</suite>
