@@ -109,4 +109,69 @@ public class AssertionInTestNG {
     public void testException() {
         int x = 10 / 0;
     }
+
+//    TODO: Need to cover other additional annotation here!
+/*
+* 🔹 1️⃣ @Parameters
+
+Used to pass parameters from testng.xml to test methods.
+
+📌 testng.xml
+👉 Used for cross-browser testing.
+
+🔹 2️⃣ @Factory
+Used for dynamic test case creation.
+👉 Creates multiple test class instances dynamically.
+
+🔹 3️⃣ @Listeners
+Used to attach listener classes (for reporting, logging, screenshots).
+Commonly used with:
+    ITestListener
+    ISuiteListener
+👉 Helps capture screenshots on failure.
+
+🔹 4️⃣ @Ignore (Less common in TestNG)
+TestNG typically uses:
+Instead of @Ignore (more common in JUnit).
+
+🔹 5️⃣ @ExpectedExceptions
+Used inside @Test to validate exceptions.
+
+🔹 6️⃣ @Test(description = "...")
+Adds description to test case (visible in reports).
+
+🔹 7️⃣ @Test(alwaysRun = true)
+Forces execution even if dependency fails.
+
+🔹 8️⃣ @Test(threadPoolSize = , invocationCount = )
+Used for parallel execution of same test.
+👉 Used in performance/load simulation.
+
+🔹 9️⃣ @Guice
+Used for dependency injection (advanced usage).
+Used when integrating TestNG with Google Guice.
+
+🔹 🔟 @Optional
+Used with @Parameters to provide default value.
+If parameter not passed → default used.
+
+📊 Summary Table
+Annotation	            Purpose
+@Parameters	            Pass values from XML
+@Factory	            Dynamic test creation
+@Listeners	            Attach listeners
+@ExpectedExceptions	    Validate exception
+@Optional	            Default parameter value
+alwaysRun	            Force execution
+threadPoolSize	        Parallel execution
+
+🎯 Interview Tip
+
+If asked “Are there any advanced TestNG annotations?”
+Say:
+Yes, apart from lifecycle annotations, TestNG supports @Parameters, @Factory, @Listeners,
+     expectedExceptions, invocationCount, threadPoolSize, and dependency-related attributes
+       for advanced test control and parallel execution.
+
+ */
 }

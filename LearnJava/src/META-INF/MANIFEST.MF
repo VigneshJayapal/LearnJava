@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Main-Class: com.learnJava.JavaCrashCourse.staticKeywordEx6.StaticClassEx
+ .AdditionalEx
+Class-Path: mysql-connector-j-9.6.0.jar jackson-core-2.15.2.jar jxl-2.6.
+ jar jackson-databind-2.11.1.jar json-simple-1.1.1.jar jspecify-1.0.0.ja
+ r guava-33.5.0-jre.jar byte-buddy-1.18.4.jar selenium-os-4.40.0.jar fai
+ lureaccess-1.0.3.jar selenium-api-4.40.0.jar selenium-http-4.40.0.jar s
+ elenium-java-4.40.0.jar selenium-json-4.40.0.jar j2objc-annotations-3.1
+ .jar jspecify-1.0.0-sources.jar selenium-manager-4.40.0.jar selenium-su
+ pport-4.40.0.jar guava-33.5.0-jre-sources.jar opentelemetry-api-1.58.0.
+ jar opentelemetry-sdk-1.58.0.jar byte-buddy-1.18.4-sources.jar selenium
+ -ie-driver-4.40.0.jar selenium-os-4.40.0-sources.jar failureaccess-1.0.
+ 3-sources.jar opentelemetry-common-1.58.0.jar selenium-api-4.40.0-sourc
+ es.jar selenium-edge-driver-4.40.0.jar opentelemetry-context-1.58.0.jar
+  selenium-http-4.40.0-sources.jar selenium-java-4.40.0-sources.jar sele
+ nium-json-4.40.0-sources.jar opentelemetry-sdk-logs-1.58.0.jar selenium
+ -chrome-driver-4.40.0.jar selenium-devtools-v142-4.40.0.jar selenium-de
+ vtools-v143-4.40.0.jar selenium-devtools-v144-4.40.0.jar selenium-remot
+ e-driver-4.40.0.jar selenium-safari-driver-4.40.0.jar auto-service-anno
+ tations-1.1.1.jar error_prone_annotations-2.41.0.jar j2objc-annotations
+ -3.1-sources.jar opentelemetry-sdk-trace-1.58.0.jar selenium-firefox-dr
+ iver-4.40.0.jar opentelemetry-sdk-common-1.58.0.jar selenium-chromium-d
+ river-4.40.0.jar selenium-manager-4.40.0-sources.jar selenium-support-4
+ .40.0-sources.jar opentelemetry-api-1.58.0-sources.jar opentelemetry-sd
+ k-1.58.0-sources.jar opentelemetry-sdk-metrics-1.58.0.jar selenium-ie-d
+ river-4.40.0-sources.jar opentelemetry-common-1.58.0-sources.jar seleni
+ um-edge-driver-4.40.0-sources.jar opentelemetry-context-1.58.0-sources.
+ jar opentelemetry-exporter-logging-1.58.0.jar opentelemetry-sdk-logs-1.
+ 58.0-sources.jar selenium-chrome-driver-4.40.0-sources.jar selenium-dev
+ tools-v142-4.40.0-sources.jar selenium-devtools-v143-4.40.0-sources.jar
+  selenium-devtools-v144-4.40.0-sources.jar selenium-remote-driver-4.40.
+ 0-sources.jar selenium-safari-driver-4.40.0-sources.jar auto-service-an
+ notations-1.1.1-sources.jar error_prone_annotations-2.41.0-sources.jar 
+ opentelemetry-sdk-trace-1.58.0-sources.jar selenium-firefox-driver-4.40
+ .0-sources.jar opentelemetry-sdk-common-1.58.0-sources.jar selenium-chr
+ omium-driver-4.40.0-sources.jar opentelemetry-sdk-metrics-1.58.0-source
+ s.jar opentelemetry-exporter-logging-1.58.0-sources.jar opentelemetry-s
+ dk-extension-autoconfigure-1.58.0.jar opentelemetry-sdk-extension-autoc
+ onfigure-spi-1.58.0.jar opentelemetry-sdk-extension-autoconfigure-1.58.
+ 0-sources.jar listenablefuture-9999.0-empty-to-avoid-conflict-with-guav
+ a.jar opentelemetry-sdk-extension-autoconfigure-spi-1.58.0-sources.jar 
+ log4j-1.2.17.jar jackson-annotations-2.9.5.jar poi-5.3.0.jar xmlbeans-5
+ .1.1.jar poi-ooxml-5.3.0.jar log4j-api-2.23.0.jar commons-io-2.16.1.jar
+  log4j-core-2.23.1.jar poi-ooxml-full-5.3.0.jar commons-compress-1.26.0
+ .jar commons-collections4-4.4.jar testng-7.1.0.jar jcommander-1.72.jar 
+ guice-4.1.0-no_aop.jar javax.inject-1.jar aopalliance-1.0.jar guava-19.
+ 0.jar snakeyaml-1.21.jar
+
