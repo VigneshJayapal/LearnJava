@@ -6,6 +6,6 @@ public class JenkinsTriggerPollingSCMex {
         System.out.println("Sample Project1!!!");
         System.out.println("Sample Project2!!!");
         System.out.println("Sample Project3!!!");
-        System.out.println("Sample Project5!!!");
+        System.out.println("Sample Project4!!!");
     }
 }
