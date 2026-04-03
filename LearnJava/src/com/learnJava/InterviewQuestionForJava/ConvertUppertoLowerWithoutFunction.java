@@ -20,23 +20,23 @@ public class ConvertUppertoLowerWithoutFunction {
         int stringLength = charArray.length;
 
 //      Upper to Lower Character
-//        for(int i=0;i<stringLength; i++){
-//            if(charArray[i]>=65 && charArray[i]<=90){
-//                charArray[i]= (char) (charArray[i]+32);
-//            }
-//        }
-//        for(int i=0; i<charArray.length; i++){
-//            System.out.print(charArray[i]);
-//        }
-
-//        Lower to Upper Character
-        for (int i=0; i<stringLength; i++){
-            if(charArray[i]>=97 && charArray[i]<=122){
-                charArray[i] = (char) (charArray[i]-32);
+        for(int i=0;i<stringLength; i++){
+            if(charArray[i]>=65 && charArray[i]<=90){
+                charArray[i]= (char) (charArray[i]+32);
             }
         }
-        for (int i=0; i<stringLength; i++){
+        for(int i=0; i<charArray.length; i++){
             System.out.print(charArray[i]);
         }
+
+//        Lower to Upper Character
+//        for (int i=0; i<stringLength; i++){
+//            if(charArray[i]>=97 && charArray[i]<=122){
+//                charArray[i] = (char) (charArray[i]-32);
+//            }
+//        }
+//        for (int i=0; i<stringLength; i++){
+//            System.out.print(charArray[i]);
+//        }
     }
 }

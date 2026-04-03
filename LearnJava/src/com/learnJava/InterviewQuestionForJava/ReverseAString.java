@@ -1,9 +1,10 @@
 package com.learnJava.InterviewQuestionForJava;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.ListIterator;
+
+import static java.util.Collections.reverse;
 
 public class ReverseAString {
 
@@ -32,13 +33,14 @@ public class ReverseAString {
         for(Character character: charArray){
             characterList.add(character);
         }
-        Collections.reverse(characterList);
+        reverse(characterList);
 
         ListIterator<Character> iterator = characterList.listIterator();
         while(iterator.hasNext()){
             System.out.print(iterator.next());
         }
     }
+
 
     public static void main (String [] args){
         ReverseAString reverseAString = new ReverseAString();

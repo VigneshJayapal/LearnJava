@@ -18,8 +18,9 @@ public class PrintTrianglePattern {
 
         /*Numeric Pattern - getting input from User*/
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number: ");
         int limit = scanner.nextInt();
-        int numberOfLines=1;
+        int numberOfLines=5;
 
         int row = 0;
         int column = 0;

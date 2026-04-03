@@ -38,12 +38,13 @@ public class ReplaceVowelsWithSpecialSigns {
 
 //    Method2:
     public static void usingRegrex(){
-        String replaceValue = given.replaceAll("[AEIOUaeiou]", "?");
+        String replaceValue = given.replaceAll("[AEIOUaeiou]", "*");
         System.out.println(replaceValue);
     }
 
     public static void main(String[] args) {
-//        usingIteration();
+        usingIteration();
         usingRegrex();
     }
+
 }

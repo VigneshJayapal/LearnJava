@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class WorkingWithDropDown {
@@ -22,8 +23,8 @@ public class WorkingWithDropDown {
 
     public static void main(String[]args){
 
-        System.setProperty("webdriver.chrome.driver", "A:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+        System.setProperty("weddriver.gecko.driver", "A:\\geckodriver-v0.36.0-win32\\geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
 
         driver.get("https://www.leafground.com/select.xhtml");
